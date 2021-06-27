@@ -129,6 +129,7 @@ elif "Game not finished" in set(winner):
         else:
             print("You should enter numbers!")
 
+# Final result
 if "X wins" in set(winner) and "O" not in set(winner):
     print("X wins")
 elif "O wins" in set(winner) and "X" not in set(winner):
